@@ -30,7 +30,6 @@ local function default_header()
     "  ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝ ",
   }
   end
-
 require('dashboard').setup {
     theme = 'doom',
     config = {

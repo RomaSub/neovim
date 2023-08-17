@@ -28,7 +28,7 @@ require("lazy").setup({
     {"williamboman/mason.nvim", build = ":MasonUpdate"},
     {'akinsho/toggleterm.nvim', version = "*", config = true},
     {'jose-elias-alvarez/null-ls.nvim'}, {'windwp/nvim-autopairs'},
-    {'Djancyp/outline'}, {'terrortylor/nvim-comment'},
+    {'Djancyp/outline'}, {'terrortylor/nvim-comment'},{'ggandor/leap.nvim'},
     {'windwp/nvim-ts-autotag'}, {
         "nvim-neo-tree/neo-tree.nvim",
         branch = "v2.x",
