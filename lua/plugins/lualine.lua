@@ -3,6 +3,7 @@
 -- MIT license, see LICENSE for more details.
 -- stylua: ignore
 local colors = {
+    mediumcyan = '#87dfff',
     blue = '#80a0ff',
     cyan = '#79dac8',
     black = '#080808',
@@ -14,7 +15,7 @@ local colors = {
 
 local bubbles_theme = {
     normal = {
-        a = {fg = colors.black, bg = colors.violet},
+        a = {fg = colors.black, bg = colors.mediumcyan},
         b = {fg = colors.white, bg = colors.grey},
         c = {fg = colors.black, bg = colors.black}
     },
