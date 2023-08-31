@@ -26,6 +26,7 @@ require("lazy").setup({
         }
     }, {'nvim-tree/nvim-web-devicons'},
     {"williamboman/mason.nvim", build = ":MasonUpdate"},
+    {"ThePrimeagen/vim-be-good"},
     {'akinsho/toggleterm.nvim', version = "*", config = true},
     {'jose-elias-alvarez/null-ls.nvim'}, {'windwp/nvim-autopairs'},
     {'Djancyp/outline'}, {'terrortylor/nvim-comment'},{'ggandor/leap.nvim'},

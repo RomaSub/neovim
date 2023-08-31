@@ -6,6 +6,7 @@ require("core.configs")
 
 -- Plugins config
 require('plugins.leap')
+require('plugins.vim-be-good')
 require("plugins.telescope")
 require("plugins.transparent")
 require("plugins.lsp")
