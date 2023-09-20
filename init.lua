@@ -5,6 +5,7 @@ require("core.colors")
 require("core.configs")
 
 -- Plugins config
+require('plugins.nvim-surround')
 require('plugins.leap')
 require('plugins.vim-be-good')
 require("plugins.telescope")
