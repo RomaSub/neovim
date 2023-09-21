@@ -4,9 +4,9 @@ require("bufferline").setup {
         mode = 'buffers',
         offsets = {
             {
-                filetype = "neo-tree",
+             -- filetype = "neo-tree",
                 text = "File Explorer",
-                separator = true,
+                separator = false,
                 padding = 1
             }
         },
