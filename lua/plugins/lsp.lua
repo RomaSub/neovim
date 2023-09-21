@@ -3,6 +3,10 @@ capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 -- Sntup language servers.
 local lspconfig = require('lspconfig')
 lspconfig.pyright.setup {}
+lspconfig.elixirls.setup {
+    cmd = { "/Users/subbotinroman/elixir-ls/language_server.sh" };
+    capabilities = capabilities
+}
 lspconfig.tsserver.setup {}
 lspconfig.prismals.setup {}
 lspconfig.cssls.setup {
