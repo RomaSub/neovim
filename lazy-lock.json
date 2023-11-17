@@ -47,10 +47,6 @@
     "branch": "main",
     "commit": "3ad55ae678876516156cca2f361c51f7952a924b"
   },
-  "leap.nvim": {
-    "branch": "main",
-    "commit": "5efe985cf68fac3b6a6dfe7a75fbfaca8db2af9c"
-  },
   "lsp-progress.nvim": {
     "branch": "main",
     "commit": "1286d70781aa77685ec1be8a829d8c5c741219ba"

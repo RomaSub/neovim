@@ -30,7 +30,7 @@ require("lazy").setup({
     {"ThePrimeagen/vim-be-good"},
     {'akinsho/toggleterm.nvim', version = "*", config = true},
     {'jose-elias-alvarez/null-ls.nvim'}, {'windwp/nvim-autopairs'},
-    {'Djancyp/outline'}, {'terrortylor/nvim-comment'},{'ggandor/leap.nvim'},
+    {'Djancyp/outline'}, {'terrortylor/nvim-comment'},
     {'windwp/nvim-ts-autotag'}, {
         "nvim-neo-tree/neo-tree.nvim",
         branch = "v2.x",
