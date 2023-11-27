@@ -12,7 +12,7 @@ lspconfig.prismals.setup {}
 lspconfig.cssls.setup {
     capabilities = capabilities
 }
-lspconfig.golangci_lint_ls.setup {}
+lspconfig.gopls.setup {}
 lspconfig.rust_analyzer.setup {
   settings = {
     ['rust-analyzer'] = {

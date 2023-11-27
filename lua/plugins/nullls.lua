@@ -9,13 +9,14 @@ null_ls.setup({
             "typescriptreact",
             "javascriptreact"
         } },
+        null_ls.builtins.formatting.gofumpt,
+        null_ls.builtins.diagnostics.golangci_lint,
         null_ls.builtins.formatting.mix,
         null_ls.builtins.diagnostics.credo,
         null_ls.builtins.formatting.lua_format,
         null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.formatting.stylua,
         null_ls.builtins.diagnostics.ltrs,
-        null_ls.builtins.formatting.rustfmt,
         null_ls.builtins.formatting.prettierd.with { filetypes = {
         "css",
         "scss",
