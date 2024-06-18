@@ -29,6 +29,10 @@ null_ls.setup({
         "markdown.mdx",
         "graphql",
         "handlebars",
+        "typescript",
+        "typescriptreact",
+        "javascript",
+        "javascriptreact",
     },
 }
     },
